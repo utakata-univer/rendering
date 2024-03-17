@@ -193,9 +193,9 @@ namespace rayt {
 			// カメラ
 
 			// z正方向から見る
-			vec3 lookfrom(0, 0, 8);
-			vec3 lookat(0, 0, 0);
-			vec3 vup(0, 1, 0);
+			// vec3 lookfrom(0, 0, 8);
+			// vec3 lookat(0, 0, 0);
+			// vec3 vup(0, 1, 0);
 
 			// y正方向から見る
 			// vec3 lookfrom(0, 10, 0);
@@ -203,9 +203,9 @@ namespace rayt {
 			// vec3 vup(0, 0, 1);
 
 			// 綺麗な角度
-			// vec3 lookfrom(0, 10, 5);
-			// vec3 lookat(0, 0, 0);
-			// vec3 vup(0, 0, 1);
+			vec3 lookfrom(0, 10, 5);
+			vec3 lookat(0, 0, 0);
+			vec3 vup(0, 0, 1);
 			float aspect = float(m_image->width()) / float(m_image->height());
 			m_camera = std::make_unique<Camera>(lookfrom, lookat, vup, 30, aspect);
 
