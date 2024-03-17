@@ -1,4 +1,4 @@
-# rendering_algorithm
+# ray_trace
 
 ## 動作確認
 
