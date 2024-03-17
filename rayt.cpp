@@ -262,7 +262,7 @@ namespace rayt {
 				}
 			}
 
-			stbi_write_bmp("render.bmp", nx, ny, sizeof(Image::rgb), m_image->pixels());
+			stbi_write_bmp("result/render.bmp", nx, ny, sizeof(Image::rgb), m_image->pixels());
 		}
 
 	private:
