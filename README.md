@@ -9,7 +9,7 @@
 ## コンパイル・実行
 
 ```
-export CPATH=export CPATH=vectormath/include/
+export CPATH=vectormath/include/
 g++ -o out rayt.cpp
 ./out
 ```
